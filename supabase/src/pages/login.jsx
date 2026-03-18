@@ -511,14 +511,14 @@ export default function SmartSaveLogin() {
                   <span className="ss-input-icon"><UserIcon /></span>
                   <div className="ss-input-group">
                     <span className="ss-input-label">First Name</span>
-                    <input className="ss-input" type="text" value={firstName} onChange={e => setFirstName(e.target.value)} placeholder="John" />
+                    <input className="ss-input" type="text" value={firstName} onChange={e => setFirstName(e.target.value)} placeholder="Aswin" />
                   </div>
                 </div>
                 <div className="ss-input-wrap">
                   <span className="ss-input-icon"><UserIcon /></span>
                   <div className="ss-input-group">
                     <span className="ss-input-label">Last Name</span>
-                    <input className="ss-input" type="text" value={lastName} onChange={e => setLastName(e.target.value)} placeholder="Doe" />
+                    <input className="ss-input" type="text" value={lastName} onChange={e => setLastName(e.target.value)} placeholder="Kumar" />
                   </div>
                 </div>
               </div>
